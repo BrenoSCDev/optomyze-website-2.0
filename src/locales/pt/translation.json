@@ -1,0 +1,681 @@
+{
+  "nav": {
+    "home": "Início",
+    "solutions": "Soluções",
+    "crm": "Optomyze CRM",
+    "design": "Design & Marca",
+    "ads": "Anúncios & Performance",
+    "web": "Desenvolvimento Web",
+    "ai": "Agentes de IA",
+    "content": "Conteúdo & Social",
+    "blog": "Blog",
+    "contact": "Contato",
+    "getStarted": "Começar",
+    "plans": "Planos"
+  },
+  "hero": {
+    "label": "Ecossistemas Operacionais Inteligentes",
+    "title": "Transforme Seu Negócio em uma",
+    "titleHighlight": "Máquina de Crescimento Previsível",
+    "subtitle": "Estruturando negócios com tecnologia e inteligência.",
+    "description": "Unimos dados e estratégia em um único ambiente conectado, integrando todas as áreas da sua empresa, do marketing e vendas à gestão e atendimento ao cliente.",
+    "cta": "Explorar o Ecossistema",
+    "ctaSecondary": "Ver Demonstração",
+    "scrollIndicator": "Role para descobrir"
+  },
+  "marquee": {
+    "items": [
+      "CRM",
+      "Agentes IA",
+      "Design",
+      "Automação",
+      "Performance",
+      "Analytics",
+      "Crescimento",
+      "Estratégia"
+    ]
+  },
+  "about": {
+    "label": "Nossa Missão",
+    "title": "Um Ecossistema. Infinitas Possibilidades.",
+    "description": "A Optomyze foi criada para empresas prontas para escalar, sem gerenciar dezenas de agências e ferramentas. Combinamos estratégia, design e analytics de performance em um único ecossistema operacional.",
+    "stat1": {
+      "value": "10x",
+      "label": "Eficiência Operacional"
+    },
+    "stat2": {
+      "value": "360°",
+      "label": "Visibilidade do Negócio"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Decisões Baseadas em Dados"
+    }
+  },
+  "solutions": {
+    "label": "Soluções",
+    "title": "Tudo que Você Precisa para Escalar",
+    "description": "Do nosso CRM principal a agentes de IA e conteúdo criativo. Cada solução é construída para funcionar em conjunto.",
+    "items": {
+      "crm": {
+        "tag": "Produto Principal",
+        "title": "Optomyze CRM",
+        "subtitle": "O Coração do Ecossistema",
+        "description": "O hub central para operações de negócios. Automatize a captura de leads, gerencie seu funil, acompanhe receitas e tome decisões baseadas em dados.",
+        "cta": "Explorar CRM"
+      },
+      "design": {
+        "tag": "Criativo",
+        "title": "Design & Identidade de Marca",
+        "subtitle": "Inteligência Visual",
+        "description": "Soluções completas de branding que fortalecem a identidade visual e o posicionamento de mercado, de sistemas de identidade a UI/UX.",
+        "cta": "Explorar Design"
+      },
+      "ads": {
+        "tag": "Performance",
+        "title": "Anúncios & Performance",
+        "subtitle": "Crescimento Orientado por Dados",
+        "description": "Gestão de campanhas Google & Meta integrada ao CRM e IA, criando um loop de feedback entre investimento em anúncios e receita real.",
+        "cta": "Explorar Anúncios"
+      },
+      "web": {
+        "tag": "Digital",
+        "title": "Desenvolvimento Web",
+        "subtitle": "Autoridade & Conversão",
+        "description": "Sites modernos e de alta conversão com excelência em UX, otimização SEO e integração perfeita com CRM e analytics.",
+        "cta": "Explorar Web"
+      },
+      "ai": {
+        "tag": "Automação",
+        "title": "Agentes de IA",
+        "subtitle": "Sua Equipe Digital",
+        "description": "Agentes inteligentes que automatizam atendimento, qualificação de leads, follow-ups e fluxos complexos. Disponível 24/7 em todos os canais.",
+        "cta": "Explorar IA"
+      },
+      "content": {
+        "tag": "Social",
+        "title": "Conteúdo & Redes Sociais",
+        "subtitle": "Storytelling Estratégico",
+        "description": "Estratégia de conteúdo, edição de vídeo e gestão de redes sociais, integrados com branding e dados de performance para máximo impacto.",
+        "cta": "Explorar Conteúdo"
+      }
+    },
+    "whatWeDeliver": "O Que Entregamos",
+    "pageNotFound": "Página não encontrada",
+    "ctaSection": {
+      "heading": "Pronto para Começar?",
+      "description": "Vamos discutir como podemos transformar seu negócio."
+    },
+    "adsFeatures": [
+      {
+        "title": "Campanhas Integradas ao CRM",
+        "desc": "Cada campanha é alimentada por dados reais do CRM, incluindo qualidade de leads, etapa e taxas de fechamento."
+      },
+      {
+        "title": "Otimização com IA",
+        "desc": "Agentes de IA analisam continuamente a performance e ajustam segmentação, lances e estratégia criativa."
+      },
+      {
+        "title": "Atribuição de Ciclo Fechado",
+        "desc": "Veja exatamente quais anúncios geraram receita, não apenas cliques. Visibilidade real de ROI."
+      },
+      {
+        "title": "Segmentação por Intenção",
+        "desc": "Segmente públicos com base em sinais comportamentais e segmentos do CRM para máxima conversão."
+      }
+    ],
+    "webServices": [
+      {
+        "num": "01",
+        "title": "Excelência em UX/UI",
+        "desc": "Cada pixel é intencional. Criamos jornadas de usuário que convertem visitantes em clientes."
+      },
+      {
+        "num": "02",
+        "title": "SEO & Performance",
+        "desc": "Construído para velocidade e descoberta. Core Web Vitals, dados estruturados e SEO técnico desde o início."
+      },
+      {
+        "num": "03",
+        "title": "Integração com CRM",
+        "desc": "Seu site alimenta diretamente o Optomyze CRM, leads capturados automaticamente, zero esforço manual."
+      },
+      {
+        "num": "04",
+        "title": "Analytics Pronto",
+        "desc": "GA4, Meta Pixel, tags do Google Ads e eventos personalizados configurados desde o primeiro dia."
+      }
+    ],
+    "aiChannels": {
+      "WhatsApp": "Conversas automatizadas e humanizadas para qualificação, suporte e fechamento.",
+      "Instagram": "Automação de DMs para leads vindos de conteúdo social e anúncios.",
+      "Telegram": "Bots para grupos e mensagens diretas para segmentos de clientes.",
+      "Email": "Sequências inteligentes, follow-ups e campanhas de reengajamento.",
+      "Web Chat": "Chatbots no seu site para captura de leads e suporte 24/7."
+    },
+    "designPortfolio": "Portfólio de marca em breve",
+    "adVideo": "Vídeo de resultados de campanha",
+    "webPortfolio": "Screenshots do portfólio de sites",
+    "contentVideo": "Vídeo de showcase de conteúdo"
+  },
+  "crm": {
+    "hero": {
+      "label": "Produto Principal",
+      "title": "Optomyze CRM",
+      "subtitle": "O Coração do Ecossistema",
+      "description": "Mais do que um CRM. Um motor completo de inteligência comercial. Automatize operações, visualize performance e transforme dados em crescimento previsível."
+    },
+    "features": {
+      "pipeline": {
+        "title": "Funil de Vendas Dinâmico",
+        "description": "Entrada de leads totalmente automatizada no funil. Visualize cada etapa, acompanhe a progressão e nunca perca uma oportunidade."
+      },
+      "whatsapp": {
+        "title": "Central de Atendimento WhatsApp",
+        "description": "Suporte comercial gerenciado inteiramente no CRM. Gerencie conversas, qualifique leads e feche negócios via WhatsApp nativamente."
+      },
+      "leads": {
+        "title": "Captura Automática de Leads",
+        "description": "Leads de tráfego pago, formulários ou automações vão direto para o processo de vendas. Zero esforço manual."
+      },
+      "billing": {
+        "title": "Métricas Avançadas de Faturamento",
+        "description": "Meça a performance comercial em múltiplos contextos com dados financeiros de alto nível e dashboards em tempo real."
+      },
+      "ai": {
+        "title": "Optus AI",
+        "description": "O assistente inteligente proprietário da Optomyze, integrado ao CRM para aprimorar a experiência e eficiência operacional."
+      },
+      "adtech": {
+        "title": "Integração Ad Tech",
+        "description": "Conexão nativa com Google Ads e Meta Ads para análise avançada de performance e rastreamento de ROI."
+      },
+      "calendar": {
+        "title": "Calendário Virtual",
+        "description": "Gerencie eventos, tarefas, atividades e compromissos diretamente vinculados a leads e oportunidades."
+      },
+      "governance": {
+        "title": "Governança Customizável",
+        "description": "Defina regras de movimentação de dados, permissões e responsabilidades por usuário, com controle total sobre suas operações."
+      }
+    },
+    "cta": {
+      "title": "Pronto para Construir sua Máquina de Crescimento?",
+      "description": "Junte-se a empresas que transformam suas operações com o Optomyze CRM.",
+      "btn": "Solicitar Demonstração"
+    },
+    "overview": {
+      "label": "Visão Geral da Plataforma",
+      "heading": "Tudo que Você Precisa Ver. Em Um Só Lugar."
+    },
+    "featuresLabel": "Funcionalidades",
+    "featuresHeading": "Inteligência Comercial em Cada Tela",
+    "whatsappSection": {
+      "label": "Central de Atendimento WhatsApp",
+      "heading": "Toda a Sua Operação Comercial Passa pelo WhatsApp",
+      "description": "Suporte comercial gerenciado inteiramente no CRM. Qualifique leads, gerencie conversas e feche negócios, tudo sem sair da plataforma.",
+      "cards": [
+        "Gestão de Conversas",
+        "Qualificação de Leads",
+        "Fluxo Comercial"
+      ]
+    },
+    "adtechSection": {
+      "label": "Integração Ad Tech",
+      "heading": "Google & Meta. Dentro do Seu CRM.",
+      "description": "Conexão nativa com suas plataformas de anúncios. Veja dados de campanhas, qualidade de leads e resultados em um único dashboard.",
+      "googleLabel": "Dashboard Google Ads",
+      "metaLabel": "Dashboard Meta Ads"
+    },
+    "optusSection": {
+      "label": "Optus AI",
+      "heading": "Conheça o Optus. Seu Co-Piloto com IA.",
+      "description": "O assistente inteligente proprietário da Optomyze integrado diretamente ao CRM, aprimorando cada fluxo de trabalho, decisão e interação.",
+      "ssLabel": "Assistente Optus AI"
+    },
+    "inboxSection": {
+      "heading": "Caixa de Entrada Unificada & Central de Chamadas",
+      "description": "Todos os canais de comunicação, WhatsApp, e-mail, redes sociais e ligações, centralizados em uma caixa de entrada inteligente.",
+      "label1": "Caixa Unificada",
+      "label2": "Hub de Comunicação"
+    },
+    "upcoming": {
+      "label": "Em Breve",
+      "heading": "O Que Vem Por Aí",
+      "description": "Estamos constantemente expandindo a plataforma. Confira o que está em construção.",
+      "statusDev": "Em Desenvolvimento",
+      "statusPlanned": "Planejado",
+      "items": [
+        { "title": "Sincronização com Google Calendar", "desc": "Sincronização bidirecional com o Google Calendar — mantenha a agenda da sua equipe e o pipeline do CRM sempre alinhados.", "status": "dev" },
+        { "title": "Integração SMS via Twilio", "desc": "Envie e receba SMS diretamente do CRM usando a infraestrutura confiável de mensagens da Twilio.", "status": "dev" },
+        { "title": "Ecossistema Meta", "desc": "Inbox unificado para DMs do Instagram, Messenger e API de Coexistência do WhatsApp — tudo em um só lugar.", "status": "planned" },
+        { "title": "Automação Global de CRM", "desc": "Um motor de automação n8n totalmente integrado ao CRM. Crie fluxos complexos sem sair da plataforma.", "status": "planned" },
+        { "title": "Chamadas VoIP", "desc": "Capacidades nativas de call center — faça e receba ligações, gerencie gravações e treine agentes dentro do CRM.", "status": "planned" },
+        { "title": "Integração SMS", "desc": "Alcance leads e clientes via campanhas de SMS e conversas bidirecionais vinculadas diretamente aos registros do CRM.", "status": "planned" }
+      ]
+    }
+  },
+  "design": {
+    "hero": {
+      "label": "Serviços Criativos",
+      "title": "Design & Identidade de Marca",
+      "description": "Como uma marca aparece e é percebida é parte essencial do seu valor. Entregamos soluções completas de design e branding para fortalecer a identidade visual e o posicionamento de mercado."
+    },
+    "services": {
+      "branding": {
+        "title": "Branding & Rebranding",
+        "description": "Arquitetura estratégica de marca, posicionamento e sistemas de identidade construídos para longevidade e impacto no mercado."
+      },
+      "identity": {
+        "title": "Identidade Visual",
+        "description": "Sistemas de logo, paletas de cores, tipografia e diretrizes de marca que criam coesão em todos os pontos de contato."
+      },
+      "creative": {
+        "title": "Criativo para Campanhas",
+        "description": "Ativos dinâmicos para redes sociais e campanhas pagas, projetados para converter e comunicar autoridade."
+      },
+      "uiux": {
+        "title": "Design UI/UX",
+        "description": "Interfaces digitais que amplificam credibilidade e entregam experiências de usuário impecáveis em web e mobile."
+      }
+    }
+  },
+  "ads": {
+    "hero": {
+      "label": "Marketing de Performance",
+      "title": "Gestão de Anúncios & Analytics",
+      "description": "Gerenciamos campanhas pagas no Google e Meta com foco em alcance, conversão e rentabilidade. Totalmente integrado com CRM e IA para um loop de feedback fechado."
+    }
+  },
+  "webdev": {
+    "hero": {
+      "label": "Presença Digital",
+      "title": "Desenvolvimento de Sites",
+      "description": "Sites modernos, responsivos e de alta conversão projetados para estabelecer autoridade e gerar oportunidades qualificadas."
+    }
+  },
+  "aiagents": {
+    "hero": {
+      "label": "Automação Inteligente",
+      "title": "Agentes de IA & Automação",
+      "description": "Agentes inteligentes que atuam como extensões digitais da sua equipe, executando processos operacionais e comerciais de forma autônoma."
+    },
+    "capabilities": {
+      "support": "Atendimento automatizado e humanizado via WhatsApp, Instagram, Telegram, email e chat",
+      "leads": "Qualificação de leads, follow-ups e agendamentos",
+      "integrations": "Integrações multiplataforma com Google, Meta, CRMs e sistemas internos",
+      "scraping": "Web scraping e coleta de dados para inteligência de mercado",
+      "flows": "Fluxos de automação personalizados para o modelo de negócio de cada cliente"
+    }
+  },
+  "content": {
+    "hero": {
+      "label": "Estratégia de Conteúdo",
+      "title": "Produção Estratégica de Conteúdo",
+      "description": "Gestão de redes sociais e edição de vídeo de alto nível, integrados estrategicamente com branding, mídia paga e dados do CRM."
+    },
+    "services": {
+      "scripting": {
+        "title": "Roteirização Estratégica",
+        "description": "Narrativas focadas em retenção e conversão, alinhadas à voz da sua marca."
+      },
+      "research": {
+        "title": "Pesquisa de Mercado",
+        "description": "Análise aprofundada de tendências e concorrentes para um posicionamento distintivo."
+      },
+      "calendar": {
+        "title": "Calendário Editorial Quinzenal",
+        "description": "Planejamento ágil focado em consistência e relevância para o público."
+      },
+      "editing": {
+        "title": "Edição de Vídeo Profissional",
+        "description": "Pós-produção dinâmica para Reels, anúncios e vídeos corporativos otimizados para engajamento."
+      },
+      "storytelling": {
+        "title": "Storytelling & Narrativas Visuais",
+        "description": "Conteúdo projetado para construir conexões emocionais e fortalecer a identidade da marca."
+      },
+      "assets": {
+        "title": "Ativos Otimizados para Performance",
+        "description": "Materiais de alta qualidade desenvolvidos para tráfego orgânico e campanhas pagas."
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "label": "Insights",
+      "title": "O Blog da Optomyze",
+      "description": "Estratégia, tecnologia e inteligência para empresas prontas para escalar."
+    },
+    "readMore": "Ler Artigo",
+    "categories": {
+      "all": "Todos",
+      "crm": "CRM",
+      "ai": "Inteligência Artificial",
+      "marketing": "Marketing",
+      "automation": "Automação",
+      "design": "Design"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "category": "crm",
+        "title": "Como um CRM Transforma seu Funil de Vendas",
+        "excerpt": "Descubra como centralizar dados de vendas reduz churn, acelera fechamentos e cria receita previsível.",
+        "date": "28 de maio de 2025",
+        "readTime": "5 min de leitura"
+      },
+      {
+        "id": 3,
+        "category": "marketing",
+        "title": "Por que Anúncios Orientados por Dados Superam os Criativos",
+        "excerpt": "Quando os dados do CRM alimentam sua estratégia de anúncios, você para de adivinhar e começa a prever.",
+        "date": "14 de maio de 2025",
+        "readTime": "6 min de leitura"
+      },
+      {
+        "id": 5,
+        "category": "design",
+        "title": "Identidade de Marca como Alavanca de Crescimento",
+        "excerpt": "Empresas que investem em como aparecem consistentemente superam as que não investem.",
+        "date": "29 de abril de 2025",
+        "readTime": "4 min de leitura"
+      },
+      {
+        "id": 6,
+        "category": "crm",
+        "title": "As Métricas que Realmente Preveem Receita",
+        "excerpt": "Esqueça métricas de vaidade. Estes são os KPIs comerciais que separam as equipes de alta performance.",
+        "date": "22 de abril de 2025",
+        "readTime": "6 min de leitura"
+      }
+    ],
+    "newsletter": {
+      "label": "Newsletter",
+      "heading": "Fique à Frente",
+      "description": "Receba os últimos insights sobre CRM, IA e estratégia de crescimento diretamente na sua caixa de entrada.",
+      "placeholder": "seu@email.com",
+      "subscribe": "Inscrever-se"
+    },
+    "post": {
+      "backToBlog": "Voltar ao Blog",
+      "author": "Equipe Optomyze",
+      "references": "Referências",
+      "previous": "Anterior",
+      "next": "Próximo",
+      "ctaTitle": "Pronto para aplicar isso ao seu negócio?",
+      "ctaDesc": "Vamos construir seu ecossistema operacional juntos.",
+      "ctaBtn": "Fale Conosco"
+    },
+    "content": {
+      "1": {
+        "sections": [
+          { "type": "paragraph", "text": "A maioria das equipes de vendas opera no escuro. Dependem de planilhas, memória e instinto para gerenciar pipelines que valem milhões. O CRM foi criado para resolver esse problema, mas a maioria das empresas ainda subutiliza a ferramenta, tratando-a como um banco de dados de contatos em vez de um motor de receita." },
+          { "type": "heading", "text": "O Problema da Visibilidade" },
+          { "type": "paragraph", "text": "Sem um sistema centralizado, cada negócio vive em um lugar diferente: a caixa de entrada de um representante, uma planilha compartilhada, um post-it. Gestores não conseguem fazer previsões precisas, representantes não conseguem priorizar, e leads escorregam por brechas que ninguém percebe até ser tarde demais. O custo real não é o negócio perdido. É o efeito acumulado de centenas de negócios perdidos ao longo do ano." },
+          { "type": "heading", "text": "O Que Muda Quando Você Implementa o CRM Corretamente" },
+          { "type": "paragraph", "text": "Um CRM bem implementado cria uma única fonte de verdade para cada interação com o cliente, etapa do negócio e projeção de receita. Os leads entram automaticamente de todas as origens: tráfego pago, formulários, WhatsApp e indicações. Cada um é direcionado ao representante certo instantaneamente. Sem entrada manual, sem atrasos, sem perda de dados." },
+          { "type": "stat", "value": "29%", "label": "aumento médio de receita após a adoção do CRM", "source": "CRM.org, 2025" },
+          { "type": "stat", "value": "$8.71", "label": "retorno para cada $1 investido em CRM", "source": "Nucleus Research, 2025" },
+          { "type": "heading", "text": "A Automação como Motor do Pipeline" },
+          { "type": "paragraph", "text": "O verdadeiro poder de um CRM moderno não está no banco de dados, está na camada de automação. Quando um lead entra no pipeline, sequências automáticas são iniciadas: mensagens no WhatsApp, follow-ups por e-mail, criação de tarefas para o representante e acompanhamento das etapas. 78% das equipes de vendas afirmam que a automação melhora o gerenciamento do pipeline. Os representantes que antes passavam horas em tarefas administrativas agora dedicam esse tempo a vender." },
+          { "type": "stat", "value": "34%", "label": "aumento na produtividade de vendas com automação de CRM", "source": "Salesforce State of Sales, 2024" },
+          { "type": "quote", "text": "O melhor CRM não é o que tem mais funcionalidades. É o que sua equipe realmente usa, o que trabalha enquanto eles dormem." },
+          { "type": "heading", "text": "Previsões que Realmente Funcionam" },
+          { "type": "paragraph", "text": "A visibilidade do pipeline permite previsões precisas. Quando cada etapa de negócio é rastreada com timestamps, taxas de conversão e valor do negócio, prever a receita do próximo mês se torna matemático, não político. Usuários de CRM relatam 42% de melhora na precisão das previsões de vendas, o que significa menos surpresas, melhores decisões de contratação e conversas mais seguras com investidores." },
+          { "type": "heading", "text": "CRM como Cultura, Não Apenas uma Ferramenta" },
+          { "type": "paragraph", "text": "As empresas que extraem mais valor do CRM não são as que escolheram o melhor software. São as que construíram uma cultura em torno dos dados. Cada interação é registrada. Cada resultado é documentado. Esses dados se acumulam ao longo do tempo em uma camada de inteligência que torna cada decisão futura mais precisa. É a diferença entre uma empresa que opera com base em informações e uma que opera com base em esperança." },
+          { "type": "list", "items": ["Centralize todos os leads em um único pipeline, sem mais planilhas", "Automatize pontos de entrada: tráfego pago, formulários, WhatsApp, social", "Crie sequências de follow-up que funcionam sem a participação do representante", "Rastreie etapas de negócio com timestamps para identificar pontos de abandono", "Use dashboards para prever receita com confiança"] }
+        ]
+      },
+      "3": {
+        "sections": [
+          { "type": "paragraph", "text": "Por anos, a publicidade foi um jogo criativo. O melhor texto, o visual mais marcante, o conceito mais inteligente vencia. Essa lógica ainda vale, mas apenas parcialmente. Em 2025, as empresas que lideram na mídia paga não são as que têm as melhores equipes criativas. São as que alimentam suas campanhas com infraestrutura de dados em tempo real." },
+          { "type": "heading", "text": "A Armadilha do Criativo" },
+          { "type": "paragraph", "text": "A maioria das empresas otimiza seus anúncios por intuição. Elas testam três variações criativas, esperam uma semana, escolhem a vencedora e chamam isso de teste A/B. O problema: estão otimizando para cliques quando deveriam otimizar para receita. Um criativo que gera 1.000 cliques de pessoas que não compram é pior do que um que gera 200 cliques de compradores reais. Você não consegue perceber essa diferença sem dados do CRM integrados ao processo." },
+          { "type": "heading", "text": "O Loop de Feedback do CRM" },
+          { "type": "paragraph", "text": "Quando seu CRM e as plataformas de anúncios estão conectados, algo poderoso acontece: você para de otimizar para leads e começa a otimizar para negócios fechados. Você pode dizer ao Google e à Meta quais públicos se converteram em receita, não apenas quais clicaram, e os algoritmos usam esse sinal para encontrar mais pessoas semelhantes. Essa é a abordagem de atribuição em loop fechado, e ela muda fundamentalmente a performance das campanhas." },
+          { "type": "stat", "value": "22%", "label": "melhor ROAS com campanhas Meta impulsionadas por IA vs. manuais", "source": "Meta Advantage+ Research, 2024" },
+          { "type": "stat", "value": "20%", "label": "aumento médio de receita com marketing orientado por dados", "source": "McKinsey, 2024" },
+          { "type": "heading", "text": "Segmentação por Intenção Supera a Demográfica" },
+          { "type": "paragraph", "text": "A segmentação tradicional se baseia em quem a pessoa é: idade, localização, cargo. A segmentação por intenção foca no que ela está fazendo agora: o conteúdo que consome, as pesquisas que realiza, os produtos que compara. Combinada com segmentos do CRM (leads que abriram três e-mails mas não agendaram, clientes que saíram há seis meses), a segmentação por intenção cria públicos que a demográfica simplesmente não consegue replicar." },
+          { "type": "quote", "text": "As campanhas de melhor performance que vimos não são as com maiores orçamentos. São as com a menor distância entre o investimento em anúncios e os dados do CRM." },
+          { "type": "heading", "text": "Como é a Atribuição em Loop Fechado" },
+          { "type": "paragraph", "text": "Em um sistema bem conectado, cada lead que entra no seu CRM carrega uma tag de origem: qual campanha, qual conjunto de anúncios, qual criativo, qual público. À medida que esses leads avançam pelo pipeline, o valor da receita retorna à sua origem. Você não mede mais o custo por lead. Você mede o custo por negócio fechado, por campanha, por canal, por criativo." },
+          { "type": "list", "items": ["Conecte o CRM ao Google Ads e Meta para rastreamento de conversões offline", "Envie dados de receita fechada como eventos de conversão, não apenas leads", "Crie públicos semelhantes a partir dos seus clientes de maior valor", "Faça remarketing para leads no pipeline com mensagens específicas por etapa", "Meça ROAS com base na receita real, não em cliques ou leads"] }
+        ]
+      },
+      "5": {
+        "sections": [
+          { "type": "paragraph", "text": "Existe um mito persistente nos negócios: a ideia de que branding é para grandes empresas com grandes orçamentos, um luxo que você investe depois que os problemas de receita estão resolvidos. Os dados dizem o contrário. O investimento em marca é uma das decisões com maior retorno que uma empresa em crescimento pode tomar, e a maioria das empresas espera tempo demais para fazê-lo." },
+          { "type": "heading", "text": "Marca Não É Só Um Logo" },
+          { "type": "paragraph", "text": "A identidade de marca é a soma de todos os sinais visuais, verbais e experienciais que seu negócio envia ao mercado. É como você aparece, como fala, como faz as pessoas se sentirem e com que consistência você faz isso em cada ponto de contato. O logo é a peça mais visível, mas é apenas o ponto de entrada. A marca real vive no sistema: tipografia, cor, tom de voz, estilo de imagem, design de interação." },
+          { "type": "stat", "value": "33%", "label": "aumento médio de receita com branding consistente", "source": "Lucidpress Brand Consistency Report, 2024" },
+          { "type": "stat", "value": "80%", "label": "melhora no reconhecimento de marca com uso estratégico de cores", "source": "Universidade de Loyola, via Fuel for Brands" },
+          { "type": "heading", "text": "O Argumento Financeiro para a Marca" },
+          { "type": "paragraph", "text": "A apresentação consistente da marca aumenta a receita em uma média de 33%. Empresas com estratégias de marca bem definidas crescem entre 10 e 20% acima da média de mercado. E marcas que se apresentam consistentemente em todas as plataformas têm 3 a 4 vezes mais chances de alcançar forte visibilidade de mercado. Esses não são indicadores subjetivos de marca, são números do resultado final." },
+          { "type": "heading", "text": "Onde a Inconsistência Destrói Valor" },
+          { "type": "paragraph", "text": "O uso inconsistente da marca, com cores diferentes, tons diferentes e versões diferentes do logo em cada canal, não parece apenas pouco profissional. Erode ativamente o reconhecimento. Estudos mostram que o branding inconsistente pode causar uma queda de 56% no reconhecimento de marca. Cada vez que um cliente em potencial vê uma versão diferente da sua marca, você está gastando capital de confiança que nem sabia que tinha." },
+          { "type": "quote", "text": "As marcas que vencem não são as mais barulhentas. São as mais consistentes. O reconhecimento se acumula como juros compostos, mas só se você continuar investindo." },
+          { "type": "heading", "text": "Como É Um Sistema de Marca Forte" },
+          { "type": "paragraph", "text": "Um sistema de marca maduro tem três camadas: identidade (logo, cores, tipografia, iconografia), linguagem (tom de voz, hierarquia de mensagens, taglines) e aplicação (templates, diretrizes, bibliotecas de ativos aprovados). Quando essas três camadas estão codificadas e acessíveis a todos que tocam sua marca, você para de reinventar a roda para cada ativo e começa a construir patrimônio com cada entrega." },
+          { "type": "list", "items": ["Defina o sistema visual da sua marca: cores, tipografia, variações do logo", "Escreva um guia de tom de voz que qualquer pessoa possa seguir", "Construa uma biblioteca de ativos: templates, ícones, imagens aprovadas", "Audite todos os pontos de contato: site, redes sociais, apresentações, propostas", "Garanta a consistência antes de investir em distribuição"] }
+        ]
+      },
+      "6": {
+        "sections": [
+          { "type": "paragraph", "text": "A maioria dos dashboards de vendas está cheia de números que parecem importantes e fazem muito pouco. Pageviews, impressões em redes sociais, taxas de abertura, volume de chamadas: essas métricas são fáceis de rastrear e de reportar, mas não dizem como será o próximo trimestre. As métricas que preveem receita são diferentes. Elas dizem para onde você está indo antes de chegar lá." },
+          { "type": "heading", "text": "A Armadilha das Métricas de Vaidade" },
+          { "type": "paragraph", "text": "Métricas de vaidade existem porque são fáceis de melhorar sem melhorar o negócio. Você pode aumentar o tráfego do site sem aumentar a receita. Você pode aumentar as taxas de abertura de e-mails sem aumentar as vendas. Equipes que otimizam esses números se sentem produtivas enquanto as métricas que realmente importam, como o valor do pipeline, a velocidade dos negócios e a taxa de conversão por etapa, ficam sem monitoramento." },
+          { "type": "stat", "value": "28%", "label": "maior atingimento de metas para equipes que rastreiam os KPIs certos", "source": "Revenue Velocity Lab, 2025" },
+          { "type": "stat", "value": "91%", "label": "atingimento médio de metas para equipes que rastreiam 5 a 7 métricas principais", "source": "Revenue.io, 2025" },
+          { "type": "heading", "text": "As Quatro Categorias de Métricas que Preveem Receita" },
+          { "type": "paragraph", "text": "As métricas de previsão de receita se encaixam em quatro categorias: métricas de resultado (o que aconteceu), métricas de pipeline (o que está por vir), métricas de eficiência (quão bem o processo funciona) e métricas de atividade (indicadores antecedentes do comportamento dos representantes). A maioria das empresas rastreia apenas métricas de resultado. As que fazem previsões precisas monitoram todas as quatro." },
+          { "type": "heading", "text": "As Cinco Métricas que Realmente Importam" },
+          { "type": "list", "items": ["Taxa de Cobertura do Pipeline: valor total do pipeline vs. meta de receita. Deve ser de 3 a 4 vezes seu objetivo.", "Taxa de Conversão por Etapa: o percentual de negócios que avança de cada etapa para a próxima. Revela onde os negócios morrem.", "Velocidade Média dos Negócios: quanto tempo os negócios levam para fechar. A aceleração aqui tem efeitos compostos na receita.", "Taxa de Lead para Fechamento por Origem: quais canais geram negócios, não apenas leads.", "Receita Prevista vs. Real: a diferença entre previsão e resultado, rastreada ao longo do tempo para melhorar a precisão."] },
+          { "type": "stat", "value": "95%", "label": "precisão de previsão possível com disciplina adequada de KPIs", "source": "Growth-Onomics Research, 2025" },
+          { "type": "quote", "text": "A precisão nas previsões é uma disciplina, não uma funcionalidade. As empresas que acertam não têm um software melhor. Têm uma melhor higiene de dados." },
+          { "type": "heading", "text": "Como Construir Seu Dashboard de Receita" },
+          { "type": "paragraph", "text": "Comece com cinco métricas ou menos. A sobrecarga de dashboards é real. 70% dos representantes de vendas B2B ficaram abaixo da meta em 2024, e a maioria deles tinha acesso a dados. O problema não era a escassez de informações, era o ruído de informações. Um dashboard com cinco métricas claras e acionáveis que todos revisam diariamente vale mais do que um relatório com 30 métricas que ninguém termina de ler." },
+          { "type": "paragraph", "text": "Conecte seu CRM às suas ferramentas de dashboard para que os números sejam atualizados automaticamente. Relatórios manuais não são relatórios. São arqueologia. No momento em que os dados exigem que um humano os mova de um lugar para outro, eles já estão desatualizados e a equipe para de confiar neles." }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Vamos Conversar",
+      "title": "Comece sua Transformação",
+      "description": "Pronto para construir um ecossistema operacional inteligente? Vamos discutir seus objetivos e criar uma estratégia juntos."
+    },
+    "form": {
+      "name": "Nome Completo",
+      "email": "Endereço de Email",
+      "company": "Nome da Empresa",
+      "message": "Fale sobre seus objetivos",
+      "submit": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada! Retornaremos em até 24 horas.",
+      "error": "Algo deu errado. Tente novamente ou entre em contato pelo e-mail.",
+      "phone": "Telefone (opcional)"
+    },
+    "info": {
+      "email": "contact@optomyze.io",
+      "response": "Resposta em até 24 horas",
+      "support": "Disponível segunda a sexta-feira"
+    },
+    "followUs": "Siga-nos",
+    "whatToExpect": "O que esperar",
+    "steps": [
+      {
+        "title": "Revisamos sua mensagem",
+        "desc": "Toda consulta é revisada pela nossa equipe em até 24 horas."
+      },
+      {
+        "title": "Chamada de descoberta",
+        "desc": "Agendamos uma chamada de 30 minutos para entender seus objetivos e configuração atual."
+      },
+      {
+        "title": "Estratégia personalizada",
+        "desc": "Apresentamos uma proposta de ecossistema personalizada para o seu negócio."
+      },
+      {
+        "title": "Você decide",
+        "desc": "Sem pressão. Avance quando estiver pronto, nos seus termos."
+      }
+    ],
+    "placeholders": {
+      "name": "João Silva",
+      "email": "joao@empresa.com",
+      "company": "Empresa S.A.",
+      "phone": "+55 (11) 90000-0000",
+      "message": "Fale sobre seus objetivos de negócio, desafios atuais e o que deseja alcançar..."
+    }
+  },
+  "footer": {
+    "tagline": "Estruturando negócios com tecnologia e inteligência.",
+    "solutions": "Soluções",
+    "company": "Empresa",
+    "about": "Sobre Nós",
+    "blog": "Blog",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Construído com precisão.",
+    "readyToScale": "Pronto para escalar?",
+    "joinCompanies": "Junte-se às empresas que transformam suas operações com a Optomyze."
+  },
+  "common": {
+    "learnMore": "Saiba Mais",
+    "getStarted": "Começar",
+    "requestDemo": "Solicitar Demonstração",
+    "viewAll": "Ver Todos",
+    "comingSoon": "Em Breve",
+    "new": "Novo",
+    "backHome": "Voltar ao Início"
+  },
+  "home": {
+    "seeCrm": "Ver o CRM",
+    "spotlight": {
+      "label": "Optomyze CRM",
+      "heading": "O Coração do Ecossistema",
+      "description": "Mais do que um CRM. Um motor completo de inteligência comercial que transforma dados brutos em receita previsível e decisões estratégicas.",
+      "features": [
+        "Captura automática de leads",
+        "Central de Atendimento WhatsApp",
+        "Dashboards em tempo real",
+        "Assistente Optus AI",
+        "Integração Google & Meta"
+      ],
+      "explore": "Explorar CRM"
+    },
+    "aiSection": {
+      "label": "Agentes de IA & Automação",
+      "heading": "Sua Equipe Digital 24/7",
+      "description": "Agentes inteligentes que atuam como extensões digitais da sua equipe, cuidando do atendimento, qualificação de leads, follow-ups e processos complexos de forma autônoma.",
+      "channels": [
+        "WhatsApp",
+        "Instagram",
+        "Telegram",
+        "E-mail",
+        "Chat Web"
+      ],
+      "explore": "Explorar Agentes de IA"
+    },
+    "adsSection": {
+      "label": "Marketing de Performance",
+      "heading": "Anúncios que Convertem, Não Só Alcançam",
+      "description": "Fechamos o ciclo entre investimento em anúncios e receita. Cada campanha é alimentada por dados reais do CRM, otimizando para leads qualificados e vendas reais.",
+      "explore": "Explorar Gestão de Anúncios"
+    },
+    "ctaSection": {
+      "heading": "Pronto para Construir seu Ecossistema de Crescimento?",
+      "description": "Junte-se às empresas que pararam de equilibrar ferramentas e agências e começaram a operar como uma máquina integrada e inteligente.",
+      "exploreCrm": "Explorar CRM"
+    },
+    "webSection": {
+      "label": "Desenvolvimento Web",
+      "heading": "Sua Presença Digital, Projetada para o Crescimento",
+      "description": "Sites modernos e de alta conversão construídos com excelência em UX, otimização de SEO e integração perfeita com CRM e analytics. Seu site se torna um motor de receita.",
+      "features": [
+        "Excelência em UX/UI",
+        "SEO & Core Web Vitals",
+        "Integração com CRM",
+        "Configuração de Analytics"
+      ],
+      "explore": "Iniciar Projeto"
+    },
+    "contentSection": {
+      "label": "Conteúdo & Redes Sociais",
+      "heading": "Conteúdo que Converte, Histórias que Ficam",
+      "description": "Produção de conteúdo estratégico, edição profissional de vídeo e gestão de redes sociais integrados com sua identidade de marca e dados de performance.",
+      "services": [
+        "Roteirização Estratégica",
+        "Edição Profissional de Vídeo",
+        "Calendário de Conteúdo Quinzenal",
+        "Ativos Otimizados para Performance"
+      ],
+      "explore": "Explorar Conteúdo"
+    }
+  },
+  "plans": {
+    "hero": {
+      "label": "Planos",
+      "title": "Escolha Seu Ecossistema",
+      "description": "Três caminhos para a inteligência operacional. Cada um construído para escalar com o seu negócio."
+    },
+    "cta": "Fale Conosco",
+    "bestValue": "Ecossistema Completo",
+    "footerNote": "Todos os planos incluem onboarding dedicado e gestão de conta. Preços adaptados ao tamanho e objetivos da sua empresa.",
+    "footerCta": "Fale conosco para um orçamento personalizado",
+    "core": {
+      "tag": "01",
+      "name": "Core",
+      "tagline": "A base essencial",
+      "focus": "Gestão inteligente com CRM e IA para otimizar processos.",
+      "description": "Combinamos a organização do CRM com a agilidade da Inteligência Artificial para automatizar processos e qualificar o atendimento ao cliente.",
+      "bonus": "Inclui um Website integrado como bônus para centralizar sua operação desde o primeiro dia.",
+      "features": [
+        "Optomyze CRM",
+        "Agentes de IA & Automação",
+        "Pipeline de vendas automatizado",
+        "Central de Atendimento WhatsApp",
+        "Dashboards operacionais em tempo real",
+        "Website integrado (bônus)"
+      ]
+    },
+    "growth": {
+      "tag": "02",
+      "name": "Growth",
+      "tagline": "O foco em escala",
+      "focus": "Estratégia completa de marketing, branding e anúncios (Meta/Google).",
+      "description": "Desenvolvido para expandir sua presença digital. Uma estratégia completa que abrange Branding, Redes Sociais, Tráfego Pago e edição profissional de vídeo.",
+      "bonus": "Inclui um Website de alta conversão como bônus para sustentar o crescimento.",
+      "features": [
+        "Identidade de marca & sistema visual",
+        "Gestão de redes sociais",
+        "Meta & Google Ads",
+        "Edição profissional de vídeo",
+        "Calendário de conteúdo quinzenal",
+        "Website de alta conversão (bônus)"
+      ]
+    },
+    "prime": {
+      "tag": "03",
+      "name": "Prime",
+      "tagline": "A solução absoluta",
+      "focus": "Ecossistema total: CRM, IA e Marketing 360°.",
+      "description": "A convergência total entre tecnologia e marketing. CRM, IA e Marketing 360° unificados — a solução definitiva para empresas que buscam liderança de mercado e escala global.",
+      "bonus": "Inclui um Website premium como bônus.",
+      "features": [
+        "Tudo do Core",
+        "Tudo do Growth",
+        "Operação 360° integrada",
+        "Relatórios de performance unificados",
+        "Suporte prioritário & gestão de conta",
+        "Website premium (bônus)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "crm": "Optomyze CRM",
+    "design": "Design & Brand",
+    "ads": "Ads & Performance",
+    "web": "Web Development",
+    "ai": "AI Agents",
+    "content": "Content & Social",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "plans": "Plans"
+  },
+  "hero": {
+    "label": "Intelligent Operational Ecosystems",
+    "title": "Transform Your Business Into a",
+    "titleHighlight": "Predictable Growth Machine",
+    "subtitle": "Empowering businesses with technology and intelligence.",
+    "description": "We unite data and strategy within a single connected environment, bridging every area of your organization from marketing and sales to management and customer service.",
+    "cta": "Explore the Ecosystem",
+    "ctaSecondary": "Watch Demo",
+    "scrollIndicator": "Scroll to discover"
+  },
+  "marquee": {
+    "items": [
+      "CRM",
+      "AI Agents",
+      "Design",
+      "Automation",
+      "Performance",
+      "Analytics",
+      "Growth",
+      "Strategy"
+    ]
+  },
+  "about": {
+    "label": "Our Purpose",
+    "title": "One Ecosystem. Infinite Possibilities.",
+    "description": "Optomyze is built for companies who are ready to scale, without managing a dozen agencies and tools. We combine strategy, design, and performance analytics into one unified operational ecosystem.",
+    "stat1": {
+      "value": "10x",
+      "label": "Operational Efficiency"
+    },
+    "stat2": {
+      "value": "360°",
+      "label": "Business Visibility"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Data-Driven Decisions"
+    }
+  },
+  "solutions": {
+    "label": "Solutions",
+    "title": "Everything You Need to Scale",
+    "description": "From our core CRM to AI agents and creative content. Every solution is built to work together.",
+    "items": {
+      "crm": {
+        "tag": "Core Product",
+        "title": "Optomyze CRM",
+        "subtitle": "The Heart of the Ecosystem",
+        "description": "The central hub for business operations. Automate lead capture, manage your pipeline, track revenue, and make data-driven decisions. All in one place.",
+        "cta": "Explore CRM"
+      },
+      "design": {
+        "tag": "Creative",
+        "title": "Design & Brand Identity",
+        "subtitle": "Visual Intelligence",
+        "description": "Complete branding solutions that strengthen visual identity and market positioning, from identity systems to UI/UX and campaign assets.",
+        "cta": "Explore Design"
+      },
+      "ads": {
+        "tag": "Performance",
+        "title": "Ads & Performance",
+        "subtitle": "Data-Driven Growth",
+        "description": "Google & Meta campaign management integrated with CRM and AI, creating a closed feedback loop between ad spend and real revenue.",
+        "cta": "Explore Ads"
+      },
+      "web": {
+        "tag": "Digital",
+        "title": "Web Development",
+        "subtitle": "Authority & Conversion",
+        "description": "Modern, high-conversion websites built with UX excellence, SEO optimization, and seamless CRM and analytics integration.",
+        "cta": "Explore Web"
+      },
+      "ai": {
+        "tag": "Automation",
+        "title": "AI Agents",
+        "subtitle": "Your Digital Workforce",
+        "description": "Intelligent agents that automate customer service, lead qualification, follow-ups, and complex workflows. Available 24/7 across every channel.",
+        "cta": "Explore AI"
+      },
+      "content": {
+        "tag": "Social",
+        "title": "Content & Social Media",
+        "subtitle": "Strategic Storytelling",
+        "description": "High-level content strategy, video editing, and social media management, integrated with branding and performance data for maximum impact.",
+        "cta": "Explore Content"
+      }
+    },
+    "whatWeDeliver": "What We Deliver",
+    "pageNotFound": "Page not found",
+    "ctaSection": {
+      "heading": "Ready to Get Started?",
+      "description": "Let's discuss how we can transform your business."
+    },
+    "adsFeatures": [
+      {
+        "title": "CRM-Integrated Campaigns",
+        "desc": "Every campaign is fed by real CRM data, including lead quality, stage, and revenue close rates."
+      },
+      {
+        "title": "AI-Powered Optimization",
+        "desc": "AI agents continuously analyze ad performance and adjust targeting, bids, and creative strategy."
+      },
+      {
+        "title": "Closed-Loop Attribution",
+        "desc": "See exactly which ads generated revenue, not just clicks. True ROI visibility."
+      },
+      {
+        "title": "Intent-Based Targeting",
+        "desc": "Target audiences based on behavioral signals and CRM segments for maximum conversion."
+      }
+    ],
+    "webServices": [
+      {
+        "num": "01",
+        "title": "UX/UI Excellence",
+        "desc": "Every pixel is purposeful. We design for seamless user journeys that convert visitors into customers."
+      },
+      {
+        "num": "02",
+        "title": "SEO & Performance",
+        "desc": "Built for speed and discoverability. Core Web Vitals, structured data, and technical SEO baked in."
+      },
+      {
+        "num": "03",
+        "title": "CRM Integration",
+        "desc": "Your website feeds directly into Optomyze CRM, leads captured automatically, zero manual effort."
+      },
+      {
+        "num": "04",
+        "title": "Analytics Ready",
+        "desc": "GA4, Meta Pixel, Google Ads tags, and custom events configured from day one."
+      }
+    ],
+    "aiChannels": {
+      "WhatsApp": "Automated and humanized conversations for qualification, support, and closing.",
+      "Instagram": "DM automation for leads from social content and ads.",
+      "Telegram": "Group and direct message bots for customer segments.",
+      "Email": "Intelligent sequences, follow-ups, and re-engagement campaigns.",
+      "Web Chat": "Embedded chat bots on your website for 24/7 lead capture and support."
+    },
+    "designPortfolio": "Brand portfolio coming soon",
+    "adVideo": "Campaign results video",
+    "webPortfolio": "Website portfolio screenshots",
+    "contentVideo": "Content reel showcase video"
+  },
+  "crm": {
+    "hero": {
+      "label": "Core Product",
+      "title": "Optomyze CRM",
+      "subtitle": "The Heart of the Ecosystem",
+      "description": "More than a CRM. A complete commercial intelligence engine. Automate operations, visualize performance, and transform data into predictable growth."
+    },
+    "features": {
+      "pipeline": {
+        "title": "Dynamic Sales Pipeline",
+        "description": "Fully automated lead entry into your funnel. Visualize every stage, track progression, and never miss an opportunity."
+      },
+      "whatsapp": {
+        "title": "WhatsApp Service Center",
+        "description": "Commercial support handled entirely within the CRM. Manage conversations, qualify leads, and close deals via WhatsApp natively."
+      },
+      "leads": {
+        "title": "Automated Lead Capture",
+        "description": "Leads from paid traffic, forms, or automations funnel directly into your sales process. Zero manual effort."
+      },
+      "billing": {
+        "title": "Advanced Billing Metrics",
+        "description": "Measure commercial performance across multiple contexts with high-level financial data and real-time dashboards."
+      },
+      "ai": {
+        "title": "Optus AI",
+        "description": "Optomyze's proprietary intelligent assistant built into the CRM to enhance user experience and operational efficiency."
+      },
+      "adtech": {
+        "title": "Ad Tech Integration",
+        "description": "Native connection with Google Ads and Meta Ads for advanced performance analysis and ROI tracking."
+      },
+      "calendar": {
+        "title": "Virtual Calendar",
+        "description": "Manage company events, tasks, activities, and appointments directly linked to leads and opportunities."
+      },
+      "governance": {
+        "title": "Customizable Governance",
+        "description": "Define data movement rules, permissions, and responsibilities per user, with complete control over your operations."
+      }
+    },
+    "cta": {
+      "title": "Ready to Build Your Growth Machine?",
+      "description": "Join companies transforming their operations with Optomyze CRM.",
+      "btn": "Request a Demo"
+    },
+    "overview": {
+      "label": "Platform Overview",
+      "heading": "Every View You Need. All in One Place."
+    },
+    "featuresLabel": "Features",
+    "featuresHeading": "Commercial Intelligence Built Into Every Screen",
+    "whatsappSection": {
+      "label": "WhatsApp Service Center",
+      "heading": "Your Entire Commercial Operation Runs Through WhatsApp",
+      "description": "Direct commercial support handled entirely within the CRM. Qualify leads, manage conversations, and close deals, all without leaving the platform.",
+      "cards": [
+        "Conversation Management",
+        "Lead Qualification",
+        "Commercial Flow"
+      ]
+    },
+    "adtechSection": {
+      "label": "Ad Tech Integration",
+      "heading": "Google & Meta. Inside Your CRM.",
+      "description": "Native connection with your ad platforms. See campaign data, lead quality, and conversion results all in one dashboard.",
+      "googleLabel": "Google Ads Dashboard",
+      "metaLabel": "Meta Ads Dashboard"
+    },
+    "optusSection": {
+      "label": "Optus AI",
+      "heading": "Meet Optus. Your AI Co-Pilot.",
+      "description": "Optomyze's proprietary intelligent assistant built directly into the CRM, enhancing every workflow, decision, and interaction.",
+      "ssLabel": "Optus AI Assistant"
+    },
+    "inboxSection": {
+      "heading": "Unified Inbox & Call Center",
+      "description": "Every communication channel, WhatsApp, email, social and calls, centralized in one intelligent inbox.",
+      "label1": "Unified Inbox",
+      "label2": "Communication Hub"
+    },
+    "upcoming": {
+      "label": "Coming Soon",
+      "heading": "What's Next",
+      "description": "We're constantly expanding the platform. Here's a look at what's building.",
+      "statusDev": "In Development",
+      "statusPlanned": "Planned",
+      "items": [
+        { "title": "Google Calendar Sync", "desc": "Two-way sync with Google Calendar — keep your team's schedule and CRM pipeline in lockstep.", "status": "dev" },
+        { "title": "Twilio SMS Integration", "desc": "Send and receive SMS directly from the CRM using Twilio's reliable messaging infrastructure.", "status": "dev" },
+        { "title": "Meta Ecosystem", "desc": "Unified inbox for Instagram DMs, Facebook Messenger and WhatsApp Coexistence API — all in one place.", "status": "planned" },
+        { "title": "Global CRM Automation", "desc": "A fully embedded n8n automation engine inside the CRM. Build complex workflows without leaving the platform.", "status": "planned" },
+        { "title": "VoIP Calling", "desc": "Native call center capabilities — make and receive calls, log recordings and coach agents from within the CRM.", "status": "planned" },
+        { "title": "SMS Integration", "desc": "Reach leads and customers via SMS campaigns and two-way conversations tied directly to their CRM records.", "status": "planned" }
+      ]
+    }
+  },
+  "design": {
+    "hero": {
+      "label": "Creative Services",
+      "title": "Design & Brand Identity",
+      "description": "How a brand looks and feels is a vital part of its value. We deliver complete design and branding solutions that strengthen visual identity and market positioning."
+    },
+    "services": {
+      "branding": {
+        "title": "Branding & Rebranding",
+        "description": "Strategic brand architecture, positioning, and identity systems built for longevity and market impact."
+      },
+      "identity": {
+        "title": "Visual Identity",
+        "description": "Logo systems, color palettes, typography, and brand guidelines that create cohesion across every touchpoint."
+      },
+      "creative": {
+        "title": "Creative for Campaigns",
+        "description": "Dynamic assets for social media and paid campaigns, designed to convert and communicate authority."
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "description": "Digital interfaces that amplify credibility and deliver seamless user experiences across web and mobile."
+      }
+    }
+  },
+  "ads": {
+    "hero": {
+      "label": "Performance Marketing",
+      "title": "Ads Management & Analytics",
+      "description": "We manage paid campaigns on Google and Meta with a focus on reach, conversion, and profitability. Fully integrated with CRM and AI for a closed feedback loop."
+    }
+  },
+  "webdev": {
+    "hero": {
+      "label": "Digital Presence",
+      "title": "Website Development",
+      "description": "Modern, responsive, high-conversion websites designed to establish authority and generate qualified opportunities."
+    }
+  },
+  "aiagents": {
+    "hero": {
+      "label": "Intelligent Automation",
+      "title": "AI Agents & Automation",
+      "description": "Intelligent agents that act as digital extensions of your team, executing operational and commercial processes autonomously."
+    },
+    "capabilities": {
+      "support": "Automated customer service via WhatsApp, Instagram, Telegram, email, and web chat",
+      "leads": "Lead qualification, follow-ups, and scheduling",
+      "integrations": "Multi-platform integrations with Google, Meta, CRMs, and internal systems",
+      "scraping": "Web scraping and data collection for market intelligence",
+      "flows": "Custom automation flows tailored to each client's business model"
+    }
+  },
+  "content": {
+    "hero": {
+      "label": "Content Strategy",
+      "title": "Strategic Content Production",
+      "description": "High-level social media management and video editing, strategically integrated with branding, paid media, and CRM data."
+    },
+    "services": {
+      "scripting": {
+        "title": "Strategic Scriptwriting",
+        "description": "Narratives focused on retention and conversion, aligned with your brand voice."
+      },
+      "research": {
+        "title": "Market Research",
+        "description": "In-depth analysis of trends and competitors for a distinctive market position."
+      },
+      "calendar": {
+        "title": "Bi-weekly Content Calendar",
+        "description": "Agile planning focused on consistency and audience relevance."
+      },
+      "editing": {
+        "title": "Professional Video Editing",
+        "description": "Dynamic post-production for Reels, ads, and corporate videos optimized for engagement."
+      },
+      "storytelling": {
+        "title": "Storytelling & Narratives",
+        "description": "Content designed to build emotional connections and strengthen brand identity."
+      },
+      "assets": {
+        "title": "Performance-Optimized Assets",
+        "description": "High-quality assets developed for both organic and paid traffic campaigns."
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "label": "Insights",
+      "title": "The Optomyze Blog",
+      "description": "Strategy, technology, and intelligence for businesses ready to scale."
+    },
+    "readMore": "Read Article",
+    "categories": {
+      "all": "All",
+      "crm": "CRM",
+      "ai": "Artificial Intelligence",
+      "marketing": "Marketing",
+      "automation": "Automation",
+      "design": "Design"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "category": "crm",
+        "title": "How a CRM Transforms Your Sales Pipeline",
+        "excerpt": "Discover how centralizing your sales data can reduce churn, accelerate deal velocity, and create predictable revenue.",
+        "date": "May 28, 2025",
+        "readTime": "5 min read"
+      },
+      {
+        "id": 3,
+        "category": "marketing",
+        "title": "Why Data-Driven Ads Beat Creative-Led Campaigns",
+        "excerpt": "When CRM data feeds your ad strategy, you stop guessing and start predicting. Here's how the loop works.",
+        "date": "May 14, 2025",
+        "readTime": "6 min read"
+      },
+      {
+        "id": 5,
+        "category": "design",
+        "title": "Brand Identity as a Growth Lever",
+        "excerpt": "The companies that invest in how they look and communicate consistently outperform those that don't.",
+        "date": "April 29, 2025",
+        "readTime": "4 min read"
+      },
+      {
+        "id": 6,
+        "category": "crm",
+        "title": "The Metrics That Actually Predict Revenue",
+        "excerpt": "Forget vanity metrics. These are the commercial KPIs that separate high-performing teams from the rest.",
+        "date": "April 22, 2025",
+        "readTime": "6 min read"
+      }
+    ],
+    "newsletter": {
+      "label": "Newsletter",
+      "heading": "Stay Ahead of the Curve",
+      "description": "Get the latest insights on CRM, AI, and growth strategy, delivered straight to your inbox.",
+      "placeholder": "your@email.com",
+      "subscribe": "Subscribe"
+    },
+    "post": {
+      "backToBlog": "Back to Blog",
+      "author": "Optomyze Team",
+      "references": "References",
+      "previous": "Previous",
+      "next": "Next",
+      "ctaTitle": "Ready to apply this to your business?",
+      "ctaDesc": "Let's build your operational ecosystem together.",
+      "ctaBtn": "Talk to Us"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Let's Talk",
+      "title": "Start Your Transformation",
+      "description": "Ready to build an intelligent operational ecosystem? Let's discuss your goals and design a strategy together."
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "message": "Tell us about your goals",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "phone": "Phone (optional)"
+    },
+    "info": {
+      "email": "contact@optomyze.io",
+      "response": "Response within 24 hours",
+      "support": "Available Monday to Friday"
+    },
+    "followUs": "Follow us",
+    "whatToExpect": "What to expect",
+    "steps": [
+      {
+        "title": "We review your message",
+        "desc": "Every inquiry is reviewed by our team within 24 hours."
+      },
+      {
+        "title": "Discovery call",
+        "desc": "We schedule a 30-minute call to understand your goals and current setup."
+      },
+      {
+        "title": "Custom strategy",
+        "desc": "We present a tailored ecosystem proposal built around your business."
+      },
+      {
+        "title": "You decide",
+        "desc": "No pressure. Move forward when you're ready, on your terms."
+      }
+    ],
+    "placeholders": {
+      "name": "John Smith",
+      "email": "john@company.com",
+      "company": "Acme Corp",
+      "phone": "+1 (555) 000-0000",
+      "message": "Tell us about your business goals, current challenges, and what you're looking to achieve..."
+    }
+  },
+  "footer": {
+    "tagline": "Empowering businesses with technology and intelligence.",
+    "solutions": "Solutions",
+    "company": "Company",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved.",
+    "madeWith": "Built with precision.",
+    "readyToScale": "Ready to scale?",
+    "joinCompanies": "Join companies transforming their operations with Optomyze."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "requestDemo": "Request a Demo",
+    "viewAll": "View All",
+    "comingSoon": "Coming Soon",
+    "new": "New",
+    "backHome": "Back to Home"
+  },
+  "home": {
+    "seeCrm": "See the CRM",
+    "spotlight": {
+      "label": "Optomyze CRM",
+      "heading": "The Heart of the Ecosystem",
+      "description": "More than a CRM. A complete commercial intelligence engine that transforms raw data into predictable revenue and strategic decisions.",
+      "features": [
+        "Automated lead capture",
+        "WhatsApp Service Center",
+        "Real-time dashboards",
+        "Optus AI assistant",
+        "Google & Meta integration"
+      ],
+      "explore": "Explore CRM"
+    },
+    "aiSection": {
+      "label": "AI Agents & Automation",
+      "heading": "Your 24/7 Digital Workforce",
+      "description": "Intelligent agents that act as digital extensions of your team, handling customer service, lead qualification, follow-ups, and complex processes autonomously.",
+      "channels": [
+        "WhatsApp",
+        "Instagram",
+        "Telegram",
+        "Email",
+        "Web Chat"
+      ],
+      "explore": "Explore AI Agents"
+    },
+    "adsSection": {
+      "label": "Performance Marketing",
+      "heading": "Ads That Close, Not Just Reach",
+      "description": "We close the loop between ad spend and revenue. Every campaign is fed by real CRM data, optimizing for qualified leads and actual sales, not vanity metrics.",
+      "explore": "Explore Ads Management"
+    },
+    "ctaSection": {
+      "heading": "Ready to Build Your Growth Ecosystem?",
+      "description": "Join the companies that stopped juggling tools and agencies and started operating as one integrated, intelligent machine.",
+      "exploreCrm": "Explore CRM"
+    },
+    "webSection": {
+      "label": "Web Development",
+      "heading": "Your Digital Presence, Engineered for Growth",
+      "description": "Modern, high-conversion websites built with UX excellence, SEO optimization, and seamless CRM and analytics integration. Your website becomes a revenue engine.",
+      "features": [
+        "UX/UI Excellence",
+        "SEO & Core Web Vitals",
+        "CRM Integration",
+        "Analytics Setup"
+      ],
+      "explore": "Start a Project"
+    },
+    "contentSection": {
+      "label": "Content & Social Media",
+      "heading": "Content That Converts, Stories That Stick",
+      "description": "Strategic content production, professional video editing, and social media management integrated with your brand identity and performance data for maximum impact.",
+      "services": [
+        "Strategic Scriptwriting",
+        "Professional Video Editing",
+        "Bi-weekly Content Calendar",
+        "Performance-Optimized Assets"
+      ],
+      "explore": "Explore Content"
+    }
+  },
+  "plans": {
+    "hero": {
+      "label": "Plans",
+      "title": "Choose Your Ecosystem",
+      "description": "Three paths to operational intelligence. Each built to scale with your business."
+    },
+    "cta": "Talk to Us",
+    "bestValue": "Complete Ecosystem",
+    "footerNote": "All plans include dedicated onboarding and account management. Pricing is tailored to your company size and goals.",
+    "footerCta": "Contact us for a custom quote",
+    "core": {
+      "tag": "01",
+      "name": "Core",
+      "tagline": "The essential foundation",
+      "focus": "Smart management with CRM and AI to optimize processes.",
+      "description": "We combine CRM organization with the agility of Artificial Intelligence to automate processes and qualify customer service.",
+      "bonus": "Includes an integrated Website as a bonus to centralize your operation from day one.",
+      "features": [
+        "Optomyze CRM",
+        "AI Agents & Automation",
+        "Automated sales pipeline",
+        "WhatsApp Service Center",
+        "Real-time operational dashboards",
+        "Integrated website (bonus)"
+      ]
+    },
+    "growth": {
+      "tag": "02",
+      "name": "Growth",
+      "tagline": "The focus on scale",
+      "focus": "Complete strategy of marketing, branding, and ads (Meta/Google).",
+      "description": "Developed to expand your digital presence. A complete strategy encompassing Branding, Social Media, Paid Traffic, and professional video editing.",
+      "bonus": "Includes a high-conversion Website as a bonus to sustain growth.",
+      "features": [
+        "Brand identity & visual system",
+        "Social media management",
+        "Meta & Google Ads",
+        "Professional video editing",
+        "Bi-weekly content calendar",
+        "High-conversion website (bonus)"
+      ]
+    },
+    "prime": {
+      "tag": "03",
+      "name": "Prime",
+      "tagline": "The absolute solution",
+      "focus": "Total ecosystem: CRM, AI, and 360° Marketing.",
+      "description": "The total convergence between technology and marketing. CRM, AI, and 360° Marketing unified — the definitive solution for companies seeking market leadership and global scale.",
+      "bonus": "Includes a premium Website as a bonus.",
+      "features": [
+        "Everything in Core",
+        "Everything in Growth",
+        "360° integrated operation",
+        "Unified performance reporting",
+        "Priority support & account management",
+        "Premium website (bonus)"
+      ]
+    }
+  }
+}
