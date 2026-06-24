@@ -267,7 +267,7 @@ export default function CRMPage() {
         <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
           <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-16 items-center">
 
-            <FadeUp className="relative lg:order-1 pb-16 sm:pb-24">
+            <FadeUp className="relative order-2 lg:order-1 pb-16 sm:pb-24">
               <div className="relative z-30 w-[480px] max-w-[85vw]">
                 <FramedShot src={adtechMeta} alt="Meta Ads dashboard in Optomyze CRM" glow="rgba(129,74,185,0.18)" />
               </div>
@@ -279,7 +279,7 @@ export default function CRMPage() {
               </div>
             </FadeUp>
 
-            <FadeUp delay={0.1} className="flex flex-col gap-6 lg:order-2">
+            <FadeUp delay={0.1} className="flex flex-col gap-6 order-1 lg:order-2">
               <span className="label-tag-light">{t('crm.adtech.label')}</span>
               <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.08]">{t('crm.adtech.heading')}</h2>
               <p className="text-base text-[#121112]/60 font-light leading-[1.8]">{t('crm.adtech.description')}</p>
@@ -333,11 +333,11 @@ export default function CRMPage() {
         <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
           <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-16 items-center">
 
-            <FadeUp className="lg:order-1">
+            <FadeUp className="order-2 lg:order-1">
               <FramedShot src={calendarShot} alt="Optomyze Calendar" glow="rgba(129,74,185,0.14)" />
             </FadeUp>
 
-            <FadeUp delay={0.1} className="flex flex-col gap-6 lg:order-2">
+            <FadeUp delay={0.1} className="flex flex-col gap-6 order-1 lg:order-2">
               <span className="label-tag-light">{t('crm.calendar.label')}</span>
               <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.08]">{t('crm.calendar.heading')}</h2>
               <p className="text-base text-[#121112]/60 font-light leading-[1.8]">{t('crm.calendar.description')}</p>
