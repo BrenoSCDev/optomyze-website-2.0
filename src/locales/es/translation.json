@@ -163,41 +163,55 @@
       "label": "Producto Principal",
       "title": "Optomyze CRM",
       "subtitle": "El Corazón del Ecosistema",
-      "description": "Más que un CRM. Un motor completo de inteligencia comercial. Automatiza operaciones, visualiza el rendimiento y transforma datos en crecimiento predecible."
+      "description": "El centro de comando para cada relación con el cliente: mensajería unificada, pipelines con puntuación por IA, analítica nativa de anuncios y automatización que funciona mientras duermes."
     },
-    "features": {
-      "pipeline": {
-        "title": "Pipeline de Ventas Dinámico",
-        "description": "Entrada de leads totalmente automatizada en tu embudo. Visualiza cada etapa y nunca pierdas una oportunidad."
-      },
-      "whatsapp": {
-        "title": "Centro de Atención WhatsApp",
-        "description": "Soporte comercial gestionado completamente dentro del CRM. Gestiona conversaciones y cierra negocios vía WhatsApp."
-      },
-      "leads": {
-        "title": "Captación Automática de Leads",
-        "description": "Leads de tráfico pago, formularios o automatizaciones van directamente a tu proceso de ventas."
-      },
-      "billing": {
-        "title": "Métricas Avanzadas de Facturación",
-        "description": "Mide el rendimiento comercial con datos financieros de alto nivel y dashboards en tiempo real."
-      },
-      "ai": {
-        "title": "Optus AI",
-        "description": "El asistente inteligente propietario de Optomyze, integrado en el CRM para mejorar la experiencia del usuario."
-      },
-      "adtech": {
-        "title": "Integración Ad Tech",
-        "description": "Conexión nativa con Google Ads y Meta Ads para análisis avanzado de rendimiento y seguimiento de ROI."
-      },
-      "calendar": {
-        "title": "Calendario Virtual",
-        "description": "Gestiona eventos, tareas, actividades y citas directamente vinculados a leads y oportunidades."
-      },
-      "governance": {
-        "title": "Gobernanza Personalizable",
-        "description": "Define reglas de movimiento de datos, permisos y responsabilidades por usuario."
-      }
+    "glance": {
+      "label": "La Plataforma de un Vistazo",
+      "heading": "Un Solo Login. Todas las Herramientas que tu Equipo Necesita.",
+      "description": "Desde el primer contacto hasta el negocio cerrado, Optomyze CRM reemplaza una pila de herramientas desconectadas con un único espacio de trabajo conectado."
+    },
+    "inbox": {
+      "label": "Comunicación Unificada",
+      "heading": "Cada Conversación. Una Sola Bandeja de Entrada.",
+      "description": "Centraliza la comunicación con clientes a través de WhatsApp, Instagram y Facebook Messenger en un único espacio de trabajo, eliminando el cambio entre canales y mejorando los tiempos de respuesta. Etiqueta leads, comparte archivos y ubicaciones, y mantén el contexto completo de cada cliente sin salir de la bandeja de entrada.",
+      "points": [
+        "WhatsApp, Instagram y Messenger en una sola pantalla",
+        "Mensajes de bienvenida automáticos por canal",
+        "Contexto completo del lead junto a cada conversación"
+      ]
+    },
+    "pipeline": {
+      "label": "CRM y Gestión de Pipeline",
+      "heading": "Desde el Primer Contacto hasta el Negocio Cerrado, Totalmente Visible.",
+      "description": "Dos pipelines diseñados específicamente para esto, uno para leads y otro para negocios, le dan a tu equipo una vista en tiempo real de cada oportunidad. La puntuación por IA marca automáticamente tus leads más prometedores, para que los representantes vendan en lugar de adivinar a quién llamar primero.",
+      "stages": ["Esperando Servicio", "En Servicio", "Calificado", "Conversión"]
+    },
+    "analytics": {
+      "label": "Reportes y Analítica",
+      "heading": "Números de Ingresos en los que Realmente Puedes Confiar.",
+      "description": "Los dashboards en tiempo real convierten la actividad del pipeline en ingresos pronosticables: desglose por etapa del embudo, ingresos mensuales cerrados vs. perdidos, y reportes completos de SLA de conversaciones, incluyendo tiempo de primera respuesta, tasa de resolución y rendimiento por agente y canal."
+    },
+    "adtech": {
+      "label": "Marketing y Rendimiento de Campañas",
+      "heading": "Google & Meta Ads, Dentro de tu CRM.",
+      "description": "Los dashboards nativos de Google Ads y Meta Ads conectan la inversión publicitaria directamente con los ingresos cerrados, no solo con los clics. Ve el ROAS a nivel de campaña, identifica tus mejores y peores resultados, y deja de adivinar qué canal realmente se paga solo.",
+      "googleLabel": "Dashboard Google Ads",
+      "metaLabel": "Dashboard Meta Ads"
+    },
+    "customer": {
+      "label": "Gestión de Clientes",
+      "heading": "Un Perfil. Todos los Puntos de Contacto.",
+      "description": "Cada registro de cliente cuenta la historia completa: cada conversación, cada cambio de etapa, cada decisión que tu equipo de ventas tomó en el camino. Reconoce patrones de compra antes que la competencia, gestiona información y documentos en un solo lugar, y agenda tareas y citas sin salir nunca del registro del cliente.",
+      "points": [
+        "Recorrido completo del cliente rastreado desde el primer contacto hasta el cierre",
+        "Documentos, tareas y citas en un único registro",
+        "Mantente en contacto vía WhatsApp, Instagram y Messenger"
+      ]
+    },
+    "calendar": {
+      "label": "Agenda y Calendario",
+      "heading": "Cada Cita, Vinculada a un Lead.",
+      "description": "Optomyze Calendar mantiene cada reunión, check-in y seguimiento vinculado al registro del cliente detrás de él, generando citas automáticamente a partir de la actividad del lead para que nada se pierda."
     },
     "cta": {
       "title": "¿Listo para Construir tu Máquina de Crecimiento?",
@@ -208,37 +222,6 @@
       "label": "Resumen de la Plataforma",
       "heading": "Todo lo que Necesitas Ver. En Un Solo Lugar."
     },
-    "featuresLabel": "Funcionalidades",
-    "featuresHeading": "Inteligencia Comercial en Cada Pantalla",
-    "whatsappSection": {
-      "label": "Centro de Atención WhatsApp",
-      "heading": "Toda Tu Operación Comercial Pasa por WhatsApp",
-      "description": "Soporte comercial gestionado completamente dentro del CRM. Califica leads, gestiona conversaciones y cierra negocios, todo sin salir de la plataforma.",
-      "cards": [
-        "Gestión de Conversaciones",
-        "Calificación de Leads",
-        "Flujo Comercial"
-      ]
-    },
-    "adtechSection": {
-      "label": "Integración Ad Tech",
-      "heading": "Google & Meta. Dentro de Tu CRM.",
-      "description": "Conexión nativa con tus plataformas publicitarias. Ve datos de campaña, calidad de leads y resultados en un solo dashboard.",
-      "googleLabel": "Dashboard Google Ads",
-      "metaLabel": "Dashboard Meta Ads"
-    },
-    "optusSection": {
-      "label": "Optus AI",
-      "heading": "Conoce a Optus. Tu Co-Piloto con IA.",
-      "description": "El asistente inteligente propietario de Optomyze integrado directamente en el CRM, mejorando cada flujo de trabajo, decisión e interacción.",
-      "ssLabel": "Asistente Optus AI"
-    },
-    "inboxSection": {
-      "heading": "Bandeja de Entrada Unificada & Call Center",
-      "description": "Todos los canales de comunicación, WhatsApp, email, redes sociales y llamadas, centralizados en una bandeja de entrada inteligente.",
-      "label1": "Bandeja Unificada",
-      "label2": "Hub de Comunicación"
-    },
     "upcoming": {
       "label": "Próximamente",
       "heading": "Lo Que Se Viene",
@@ -246,12 +229,12 @@
       "statusDev": "En Desarrollo",
       "statusPlanned": "Planificado",
       "items": [
-        { "title": "Sincronización con Google Calendar", "desc": "Sincronización bidireccional con Google Calendar — mantén el calendario de tu equipo y el pipeline del CRM siempre alineados.", "status": "dev" },
-        { "title": "Integración SMS con Twilio", "desc": "Envía y recibe SMS directamente desde el CRM usando la infraestructura de mensajería de Twilio.", "status": "dev" },
-        { "title": "Ecosistema Meta", "desc": "Bandeja unificada para DMs de Instagram, Facebook Messenger y la API de Coexistencia de WhatsApp — todo en un solo lugar.", "status": "planned" },
-        { "title": "Automatización Global de CRM", "desc": "Un motor de automatización n8n totalmente integrado al CRM. Crea flujos complejos sin salir de la plataforma.", "status": "planned" },
-        { "title": "Llamadas VoIP", "desc": "Capacidades nativas de call center — realiza y recibe llamadas, gestiona grabaciones y entrena agentes desde el CRM.", "status": "planned" },
-        { "title": "Integración SMS", "desc": "Alcanza leads y clientes con campañas de SMS y conversaciones bidireccionales vinculadas a sus registros en el CRM.", "status": "planned" }
+        { "title": "Sincronización con Google Calendar", "desc": "Sincronización bidireccional con Google Calendar — mantén el calendario de tu equipo y el pipeline del CRM siempre alineados.", "status": "planned" },
+        { "title": "Integración SMS con Twilio", "desc": "Envía y recibe SMS directamente desde el CRM usando la infraestructura de mensajería de Twilio.", "status": "planned" },
+        { "title": "Automatización Global de CRM", "desc": "Un motor de automatización nativo, integrado directamente en el CRM. Crea flujos de trabajo complejos sin salir de la plataforma ni depender de herramientas de terceros.", "status": "planned" },
+        { "title": "Llamadas VoIP", "desc": "Capacidades nativas de call center — realiza y recibe llamadas, gestiona grabaciones y entrena agentes desde el CRM.", "status": "dev" },
+        { "title": "Agentes de IA Nativos", "desc": "Agentes de IA integrados directamente en la bandeja de entrada multicanal para calificar leads automáticamente, respondiendo preguntas, capturando intención y dirigiendo a tu equipo solo las conversaciones listas para vender.", "status": "dev" },
+        { "title": "Integración con Telegram", "desc": "Agrega Telegram como otro canal en la bandeja de entrada unificada, junto a WhatsApp, Instagram y Messenger.", "status": "dev" }
       ]
     }
   },
@@ -563,7 +546,7 @@
       "description": "Más que un CRM. Un motor completo de inteligencia comercial que transforma datos en ingresos predecibles y decisiones estratégicas.",
       "features": [
         "Captación automática de leads",
-        "Centro de Atención WhatsApp",
+        "Bandeja unificada: WhatsApp, Instagram y Messenger",
         "Dashboards en tiempo real",
         "Asistente Optus AI",
         "Integración Google & Meta"
@@ -640,7 +623,7 @@
         "Optomyze CRM",
         "Agentes de IA & Automatización",
         "Pipeline de ventas automatizado",
-        "Centro de Atención WhatsApp",
+        "Bandeja unificada: WhatsApp, Instagram y Messenger",
         "Dashboards operacionales en tiempo real",
         "Sitio web integrado (bonus)"
       ]

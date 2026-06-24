@@ -3,7 +3,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, useInView } from 'framer-motion';
 import { getPostById } from '../data/blogContent';
-import crmMockup   from '../assets/CRM-MOCKUPS/MOCKUP-HERO.jpg';
+import crmMockup   from '../assets/CRM-MOCKUPS/CRM-HERO.jpeg';
 import dataDriven  from '../assets/STATIC-ASSETS/data-driven-creatives.jpeg';
 import dataMetrics from '../assets/STATIC-ASSETS/data-metrics-thumbnail.jpeg';
 import designThumb from '../assets/STATIC-ASSETS/design-thumbnail.jpeg';

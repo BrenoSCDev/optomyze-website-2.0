@@ -2,26 +2,41 @@ import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, useInView } from 'framer-motion';
+import { SiGoogleads, SiMeta } from 'react-icons/si';
 
-import mockupHero      from '../assets/CRM-MOCKUPS/MOCKUP-HERO.jpg';
-import overviewVideo   from '../assets/VIDEOS/astros-dancing.mp4';
-import upcomingVideo   from '../assets/VIDEOS/astros-solutions.mp4';
-import ctaVideo        from '../assets/VIDEOS/astro.mp4';
-import manyScreens  from '../assets/CRM-MOCKUPS/MOCKUP-MANY-SCREENS.jpg';
-import ssDashboard  from '../assets/CRM-SCREENSHOTS/CRM-DASHBOARD.png';
-import ssDashboard2 from '../assets/CRM-SCREENSHOTS/CRM-DASHBOARD-2.png';
-import ssFunnel     from '../assets/CRM-SCREENSHOTS/CRM-SALES-FUNNEL.png';
-import ssDealFunnel from '../assets/CRM-SCREENSHOTS/CRM-DEALS-FUNNEL.png';
-import ssWhatsapp1  from '../assets/CRM-SCREENSHOTS/CRM-WhatsApp-Inbox-01.png';
-import ssWhatsapp2  from '../assets/CRM-SCREENSHOTS/CRM-WhatsApp-Inbox-02.png';
-import ssWhatsapp3  from '../assets/CRM-SCREENSHOTS/CRM-WhatsApp-Inbox-03.png';
+import overviewVideo from '../assets/VIDEOS/astros-dancing.mp4';
+import upcomingVideo from '../assets/VIDEOS/astros-solutions.mp4';
+import ctaVideo      from '../assets/VIDEOS/astro.mp4';
 
-import ssRevenue    from '../assets/CRM-SCREENSHOTS/CRM-REVENUE-DASHBOARD.png';
-import ssLeads      from '../assets/CRM-SCREENSHOTS/CRM-LEADS-DETAILS.png';
-import ssGoogle     from '../assets/CRM-SCREENSHOTS/CRM-GOOGLE-ADS-DASHBOARD.png';
-import ssMeta       from '../assets/CRM-SCREENSHOTS/CRM-META-ADS-DASHBOARD.png';
-import ssOptusAI    from '../assets/CRM-SCREENSHOTS/CRM-Optus-AI.png';
-import ssCalendar   from '../assets/CRM-SCREENSHOTS/CRM-Calendar.png';
+// Hero
+import heroMockup from '../assets/CRM-MOCKUPS/CRM-HERO.jpeg';
+
+// Platform at a Glance
+import manyScreensMockup from '../assets/CRM-MOCKUPS/LIGHT-MU-1.jpeg';
+
+// Unified Multi-Channel Inbox (WhatsApp dark + Instagram light, mixed for contrast)
+import inboxWpp from '../assets/CRM-SCREENSHOTS/crm-dark-mode/crm-optomyze-conversation-wpp.png';
+import inboxIg  from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-crm-conversation-ig.png';
+
+// Pipeline & Deal Management (light)
+import pipelineShot from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-sales-funnel.png';
+import dealFunnelShot from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-deals-funnel.png';
+
+// Reporting & Analytics (dark)
+import analyticsMain          from '../assets/CRM-SCREENSHOTS/crm-dark-mode/crm-optomyze-metrics-1.png';
+import analyticsRevenue       from '../assets/CRM-SCREENSHOTS/crm-dark-mode/crm-optomyze-metrics-revenue.png';
+import analyticsConversations from '../assets/CRM-SCREENSHOTS/crm-dark-mode/crm-optomyze-metrics-conversations.png';
+
+// Marketing & Ad Tech (light)
+import adtechGoogle from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-meta-ads-2.png';
+import adtechMeta   from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-meta-ads-1.png';
+import adtechMeta3  from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-meta-ads-3.png';
+
+// Customer Management (dark)
+import leadDetailsShot from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-lead-details.png';
+
+// Scheduling & Calendar (light)
+import calendarShot from '../assets/CRM-SCREENSHOTS/crm-light-mode/crm-optomyze-crm-calendar.png';
 
 
 const ArrowRight = () => (
@@ -42,29 +57,23 @@ function FadeUp({ children, delay = 0, className = '' }) {
   );
 }
 
-
-const FEATURE_ICONS = {
-  pipeline: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg>,
-  whatsapp: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>,
-  leads:    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>,
-  billing:  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>,
-  ai:       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1" fill="currentColor"/></svg>,
-  adtech:   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>,
-  calendar: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>,
-};
-
-const FEATURES = [
-  { key: 'pipeline',   ss: ssFunnel,    ssAlt: 'Sales Pipeline' },
-  { key: 'whatsapp',   ss: ssWhatsapp1, ssAlt: 'WhatsApp CRM' },
-  { key: 'leads',      ss: ssLeads,     ssAlt: 'Lead Details' },
-  { key: 'billing',    ss: ssRevenue,   ssAlt: 'Revenue Dashboard' },
-  { key: 'ai',         ss: ssOptusAI,   ssAlt: 'Optus AI' },
-  { key: 'adtech',     ss: ssGoogle,    ssAlt: 'Google Ads Dashboard' },
-  { key: 'calendar',   ss: ssCalendar,  ssAlt: 'CRM Calendar' },
-];
+function FramedShot({ src, alt, glow = 'rgba(129,74,185,0.18)' }) {
+  return (
+    <div className="relative">
+      <div className="absolute inset-[-20px] rounded-[2rem] pointer-events-none"
+        style={{ background: `radial-gradient(ellipse, ${glow} 0%, transparent 65%)`, filter: 'blur(20px)' }} />
+      <img src={src} alt={alt}
+        className="w-full rounded-2xl border border-purple/18 shadow-[0_16px_48px_rgba(0,0,0,0.45)] relative z-10 hover:scale-[1.015] transition-all duration-500" />
+    </div>
+  );
+}
 
 export default function CRMPage() {
   const { t } = useTranslation();
+
+  const pipelineStages = t('crm.pipeline.stages', { returnObjects: true });
+  const inboxPoints = t('crm.inbox.points', { returnObjects: true });
+  const customerPoints = t('crm.customer.points', { returnObjects: true });
 
   return (
     <main>
@@ -101,17 +110,17 @@ export default function CRMPage() {
                 transition={{ duration: 0.55, delay: 0.5 }}
               >
                 <Link to="/contact" className="btn-primary">{t('crm.cta.btn')} <ArrowRight /></Link>
-                <a href="#features" className="btn-secondary">{t('common.learnMore')}</a>
+                <a href="#glance" className="btn-secondary">{t('common.learnMore')}</a>
               </motion.div>
             </div>
 
-            {/* Right — mockup */}
+            {/* Right — screenshot */}
             <motion.div className="relative"
               initial={{ opacity: 0, y: 40, scale: 0.97 }} animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 1.0, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="absolute -inset-8 bg-[radial-gradient(ellipse,rgba(129,74,185,0.25)_0%,transparent_65%)] blur-[40px] pointer-events-none" />
-              <img src={mockupHero} alt="Optomyze CRM"
+              <img src={heroMockup} alt="Optomyze CRM"
                 className="w-full rounded-2xl border border-purple/20 shadow-[0_24px_80px_rgba(0,0,0,0.55),0_0_60px_rgba(129,74,185,0.12)] relative z-10" />
             </motion.div>
 
@@ -119,7 +128,7 @@ export default function CRMPage() {
         </div>
       </section>
 
-      {/* ── OVERVIEW ── */}
+      {/* ── OVERVIEW / SCROLL CUE ── */}
       <section className="relative overflow-hidden flex flex-col items-center justify-center sm:min-h-[100vh]">
         <video className="absolute inset-0 w-full h-full object-cover z-0" autoPlay muted loop playsInline src={overviewVideo} />
         <div className="absolute inset-0 z-[1]"
@@ -147,47 +156,194 @@ export default function CRMPage() {
         </div>
       </section>
 
-      {/* ── MANY SCREENS ── */}
-      <section className="section-padding bg-[#0e0814] overflow-hidden">
+      {/* ── PLATFORM AT A GLANCE (light, grid mosaic) ── */}
+      <section className="section-padding bg-cream overflow-hidden" id="glance">
         <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
-          <FadeUp className="relative text-center">
-            <div className="absolute inset-[-30px] bg-[radial-gradient(ellipse,rgba(129,74,185,0.2)_0%,transparent_65%)] blur-[40px] pointer-events-none" />
-            <img src={manyScreens} alt="Optomyze CRM Multi-Screen"
-              className="w-full max-w-[900px] mx-auto rounded-2xl border border-purple/20 shadow-[0_24px_64px_rgba(0,0,0,0.5)] relative z-10" />
+          <FadeUp className="flex flex-col items-center text-center gap-4 mb-14 max-w-[640px] mx-auto">
+            <span className="label-tag-light">{t('crm.glance.label')}</span>
+            <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.1]">{t('crm.glance.heading')}</h2>
+            <p className="text-base text-[#121112]/60 font-light leading-[1.7]">{t('crm.glance.description')}</p>
+          </FadeUp>
+
+          <FadeUp delay={0.1} className="relative">
+            <div className="absolute inset-[-30px] bg-[radial-gradient(ellipse,rgba(129,74,185,0.12)_0%,transparent_65%)] blur-[40px] pointer-events-none" />
+            <img src={manyScreensMockup} alt="Optomyze CRM Multi-Screen"
+              className="w-full max-w-[900px] mx-auto rounded-2xl border border-[#121112]/10 shadow-[0_24px_64px_rgba(0,0,0,0.18)] relative z-10" />
           </FadeUp>
         </div>
       </section>
 
-      {/* ── FEATURES ── */}
-      <section className="section-padding bg-[#0e0814] overflow-hidden" id="features">
-        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
-          <FadeUp className="flex flex-col items-center text-center gap-4 mb-16">
-            <span className="label-tag">Features</span>
-            <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-cream">
-              {t('crm.featuresHeading')}
-            </h2>
+      {/* ── UNIFIED MULTI-CHANNEL INBOX (dark, flagship, full-width) ── */}
+      <section className="section-padding bg-[#0e0814] overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)] flex flex-col gap-16">
+
+          <FadeUp className="flex flex-col items-center text-center gap-5 max-w-[700px] mx-auto">
+            <span className="label-tag">{t('crm.inbox.label')}</span>
+            <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-cream leading-[1.08]">{t('crm.inbox.heading')}</h2>
+            <p className="text-base text-cream/55 font-light leading-[1.8]">{t('crm.inbox.description')}</p>
+            <ul className="flex flex-col sm:flex-row gap-3 sm:gap-6 flex-wrap justify-center">
+              {inboxPoints.map(point => (
+                <li key={point} className="flex items-center gap-2.5 text-sm text-cream/65">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-purple-light flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+                  {point}
+                </li>
+              ))}
+            </ul>
+            <Link to="/contact" className="btn-primary mt-2">{t('common.requestDemo')}</Link>
           </FadeUp>
 
-          <div className="flex flex-col gap-[clamp(60px,10vw,120px)]">
-            {FEATURES.map(({ key, ss, ssAlt }, i) => (
-              <motion.div key={key}
-                className={`grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-16 items-center ${i % 2 === 1 ? 'lg:[&>*:first-child]:order-2 lg:[&>*:last-child]:order-1' : ''}`}
-                initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.22,1,0.36,1] }}
-              >
-                <div className="flex flex-col gap-5">
-                  <h3 className="font-title text-[clamp(1.5rem,3vw,2.4rem)] text-cream">{t(`crm.features.${key}.title`)}</h3>
-                  <p className="text-base text-cream/60 leading-[1.75] font-light">{t(`crm.features.${key}.description`)}</p>
-                  <Link to="/contact" className="btn-secondary self-start">{t('common.requestDemo')}</Link>
-                </div>
+          <FadeUp delay={0.15} className="relative flex items-start justify-center px-4 sm:px-10 pb-6 sm:pb-12">
+            <div className="w-[56%] max-w-[560px] relative z-10">
+              <FramedShot src={inboxIg} alt="Instagram conversation in Optomyze CRM (light mode)" glow="rgba(129,74,185,0.14)" />
+            </div>
+            <div className="w-[56%] max-w-[560px] -ml-16 sm:-ml-24 mt-16 sm:mt-24 relative z-0">
+              <FramedShot src={inboxWpp} alt="WhatsApp conversation in Optomyze CRM" />
+            </div>
+          </FadeUp>
 
-                <div className="relative">
-                  <div className="absolute inset-[-20px] bg-[radial-gradient(ellipse,rgba(129,74,185,0.18)_0%,transparent_65%)] blur-[20px] pointer-events-none" />
-                  <img src={ss} alt={ssAlt}
-                    className="w-full rounded-2xl border border-purple/18 shadow-[0_16px_48px_rgba(0,0,0,0.45)] relative z-10 hover:scale-[1.02] hover:shadow-[0_24px_64px_rgba(0,0,0,0.55),0_0_40px_rgba(129,74,185,0.2)] transition-all duration-500" />
-                </div>
-              </motion.div>
-            ))}
+        </div>
+      </section>
+
+      {/* ── PIPELINE & DEAL MANAGEMENT (light) ── */}
+      <section className="section-padding bg-cream overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)] flex flex-col lg:flex-row items-center gap-12 lg:gap-10">
+
+          <FadeUp className="flex flex-col gap-5 w-full lg:w-[540px] lg:flex-shrink-0">
+            <span className="label-tag-light">{t('crm.pipeline.label')}</span>
+            <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.08]">{t('crm.pipeline.heading')}</h2>
+            <p className="text-base text-[#121112]/60 font-light leading-[1.8]">{t('crm.pipeline.description')}</p>
+
+            <div className="flex items-center gap-1.5 flex-nowrap overflow-x-auto pt-2 pb-1 -mx-1 px-1">
+              {pipelineStages.map((stage, i) => (
+                <span key={stage} className="flex items-center gap-1.5 flex-shrink-0">
+                  <span className={`px-2.5 py-1 rounded-lg text-[11px] font-semibold whitespace-nowrap ${i === pipelineStages.length - 1 ? 'bg-purple text-cream' : 'bg-[#121112]/[0.06] text-[#121112]/65'}`}>
+                    {stage}
+                  </span>
+                  {i < pipelineStages.length - 1 && <span className="text-[#121112]/25 flex-shrink-0">→</span>}
+                </span>
+              ))}
+            </div>
+
+            <Link to="/contact" className="btn-secondary-dark self-start mt-2">{t('common.requestDemo')}</Link>
+          </FadeUp>
+
+          <FadeUp delay={0.15} className="relative flex items-start justify-start flex-1 min-w-0">
+            <div className="w-[580px] max-w-[90vw] flex-shrink-0 relative z-10">
+              <FramedShot src={pipelineShot} alt="Sales funnel kanban in Optomyze CRM" glow="rgba(129,74,185,0.14)" />
+            </div>
+            <div className="w-[580px] max-w-[90vw] flex-shrink-0 -ml-56 sm:-ml-72 mt-24 sm:mt-32 relative z-0">
+              <FramedShot src={dealFunnelShot} alt="Deal funnel kanban in Optomyze CRM" glow="rgba(129,74,185,0.1)" />
+            </div>
+          </FadeUp>
+
+        </div>
+      </section>
+
+      {/* ── REPORTING & ANALYTICS (dark, full-width dashboard showcase) ── */}
+      <section className="section-padding bg-[#0e0814] overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
+          <FadeUp className="flex flex-col items-center text-center gap-4 mb-14 max-w-[640px] mx-auto">
+            <span className="label-tag">{t('crm.analytics.label')}</span>
+            <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-cream leading-[1.1]">{t('crm.analytics.heading')}</h2>
+            <p className="text-base text-cream/55 font-light leading-[1.7]">{t('crm.analytics.description')}</p>
+          </FadeUp>
+
+          <FadeUp delay={0.1} className="relative flex items-start justify-center pb-20 sm:pb-36">
+            <div className="w-[640px] max-w-[88vw] flex-shrink-0 relative z-30">
+              <FramedShot src={analyticsMain} alt="Metrics dashboard overview in Optomyze CRM" />
+            </div>
+            <div className="w-[640px] max-w-[88vw] flex-shrink-0 -ml-40 sm:-ml-56 mt-20 sm:mt-28 relative z-20">
+              <FramedShot src={analyticsRevenue} alt="Revenue analytics dashboard in Optomyze CRM" glow="rgba(129,74,185,0.2)" />
+            </div>
+            <div className="w-[640px] max-w-[88vw] flex-shrink-0 -ml-40 sm:-ml-56 mt-40 sm:mt-56 relative z-10">
+              <FramedShot src={analyticsConversations} alt="Conversation SLA metrics in Optomyze CRM" glow="rgba(129,74,185,0.22)" />
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── MARKETING & AD TECH (light) ── */}
+      <section className="section-padding bg-cream overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-16 items-center">
+
+            <FadeUp className="relative lg:order-1 pb-16 sm:pb-24">
+              <div className="relative z-30 w-[480px] max-w-[85vw]">
+                <FramedShot src={adtechMeta} alt="Meta Ads dashboard in Optomyze CRM" glow="rgba(129,74,185,0.18)" />
+              </div>
+              <div className="absolute z-20 w-[480px] max-w-[85vw] top-16 sm:top-20 -left-8 sm:-left-12">
+                <FramedShot src={adtechGoogle} alt="Google Ads dashboard in Optomyze CRM" glow="rgba(129,74,185,0.14)" />
+              </div>
+              <div className="absolute z-10 w-[480px] max-w-[85vw] top-32 sm:top-40 -left-16 sm:-left-24">
+                <FramedShot src={adtechMeta3} alt="Meta Ads ad set performance in Optomyze CRM" glow="rgba(129,74,185,0.1)" />
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.1} className="flex flex-col gap-6 lg:order-2">
+              <span className="label-tag-light">{t('crm.adtech.label')}</span>
+              <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.08]">{t('crm.adtech.heading')}</h2>
+              <p className="text-base text-[#121112]/60 font-light leading-[1.8]">{t('crm.adtech.description')}</p>
+              <div className="flex gap-2 flex-wrap">
+                <span className="flex items-center gap-2 px-3 py-1.5 bg-[#121112]/[0.06] rounded-lg text-xs font-semibold text-[#121112]/65">
+                  <SiGoogleads size={14} color="#4285F4" />
+                  {t('crm.adtech.googleLabel')}
+                </span>
+                <span className="flex items-center gap-2 px-3 py-1.5 bg-[#121112]/[0.06] rounded-lg text-xs font-semibold text-[#121112]/65">
+                  <SiMeta size={14} color="#0081FB" />
+                  {t('crm.adtech.metaLabel')}
+                </span>
+              </div>
+              <Link to="/contact" className="btn-secondary-dark self-start mt-2">{t('common.requestDemo')}</Link>
+            </FadeUp>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ── CUSTOMER MANAGEMENT (dark) ── */}
+      <section className="section-padding bg-[#0e0814] overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <FadeUp className="flex flex-col gap-6 order-1 lg:order-1">
+              <span className="label-tag">{t('crm.customer.label')}</span>
+              <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-cream leading-[1.08]">{t('crm.customer.heading')}</h2>
+              <p className="text-base text-cream/55 font-light leading-[1.8]">{t('crm.customer.description')}</p>
+              <ul className="flex flex-col gap-3">
+                {customerPoints.map(point => (
+                  <li key={point} className="flex items-center gap-3 text-sm text-cream/65">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-purple-light flex-shrink-0"><polyline points="20 6 9 17 4 12"/></svg>
+                    {point}
+                  </li>
+                ))}
+              </ul>
+              <Link to="/contact" className="btn-primary self-start mt-2">{t('common.requestDemo')}</Link>
+            </FadeUp>
+
+            <FadeUp delay={0.1} className="order-2 lg:order-2">
+              <FramedShot src={leadDetailsShot} alt="Lead details and customer journey in Optomyze CRM" />
+            </FadeUp>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ── SCHEDULING & CALENDAR (light) ── */}
+      <section className="section-padding bg-cream overflow-hidden">
+        <div className="w-full max-w-[1280px] mx-auto px-[clamp(1rem,5vw,3rem)]">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-16 items-center">
+
+            <FadeUp className="lg:order-1">
+              <FramedShot src={calendarShot} alt="Optomyze Calendar" glow="rgba(129,74,185,0.14)" />
+            </FadeUp>
+
+            <FadeUp delay={0.1} className="flex flex-col gap-6 lg:order-2">
+              <span className="label-tag-light">{t('crm.calendar.label')}</span>
+              <h2 className="font-title text-[clamp(1.8rem,3.5vw,3rem)] text-[#121112] leading-[1.08]">{t('crm.calendar.heading')}</h2>
+              <p className="text-base text-[#121112]/60 font-light leading-[1.8]">{t('crm.calendar.description')}</p>
+              <Link to="/contact" className="btn-secondary-dark self-start mt-2">{t('common.requestDemo')}</Link>
+            </FadeUp>
+
           </div>
         </div>
       </section>

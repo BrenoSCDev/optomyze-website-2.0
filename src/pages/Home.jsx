@@ -5,7 +5,7 @@ import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 const Spline = lazy(() => import('@splinetool/react-spline'));
 
-import heroMockup      from '../assets/CRM-MOCKUPS/MOCKUP-HERO.jpg';
+import heroMockup      from '../assets/CRM-MOCKUPS/LIGHT-MU-2.jpeg';
 import logoIcon        from '../assets/LOGOS/icone-branco.png';
 import adsRobot        from '../assets/STATIC-ASSETS/ads_robot.png';
 import aiIntegrations  from '../assets/STATIC-ASSETS/ai_integrations.png';
